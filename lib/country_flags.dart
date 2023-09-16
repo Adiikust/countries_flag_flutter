@@ -17,7 +17,6 @@ class CountryFlags extends SvgPicture {
     String? semanticsLabel,
     bool excludeFromSemantics = false,
     Clip clipBehavior = Clip.hardEdge,
-    SvgTheme? theme,
   }) : super.asset(
           key: key,
           countryFlagName ?? '',
@@ -28,11 +27,9 @@ class CountryFlags extends SvgPicture {
           matchTextDirection: matchTextDirection,
           allowDrawingOutsideViewBox: allowDrawingOutsideViewBox,
           placeholderBuilder: placeholderBuilder,
-          colorFilter: colorFilter,
           semanticsLabel: semanticsLabel,
           excludeFromSemantics: excludeFromSemantics,
           clipBehavior: clipBehavior,
-          theme: theme ?? const SvgTheme(),
           package: 'country_flags',
         );
 }
