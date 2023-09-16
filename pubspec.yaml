@@ -1,7 +1,7 @@
 name: countries_flag_flutter
 description: Embed 250+ flags in your dream project using just one line of coding.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Adiikust/countries_flag_flutter.git
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
